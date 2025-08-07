@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Rede Social</title>
+</head>
+
+<body>
+    <div class="tela">
+
+        <div class="menu-lateral">
+            <div><button class="button-menu"> <a href="index.html">🏠</button></div>
+            <div><button class="button-menu"><a href="index.html"></a>🔎</button></div>
+            <div><button class="button-menu"><a href="index.html"></a>➕</button></div>
+            <div><button class="button-menu"><a href="index.html"></a>👤</button></div>
+        </div>
+
+
+
+        <div class="area-feed">
+            <div class="cabeca">
+                <img src="./images/Dexter.png" alt="perfil">
+                <div>
+                    <h3>Dexter Morgan</h3>
+                    <p>@Dexter_kills</p>
+                </div>
+                <button class="btn-editar-perfil">Editar Perfil</button>
+            </div>
+
+            <textarea placeholder="Quais são as novidades?"></textarea>
+            <button class="btn-postar">Postar</button>
+
+            <div class="post">
+                <img src="./images/ArthurMitchellDexter.jpg" alt="Trinity">
+                <div>
+                    <h4>Trindade<span>@Trinity</span></h4>
+                    <p>Acabei de levar uma loira de arrasta</p>
+                    <div class="acoes">
+                        <button onclick="curtir(this)">👍 7</button>
+                        <button onclick="comentar(this)">💬 2</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="./images/Rita_Bennett.jpg" alt="Rita do Grau">
+                <div>
+                    <h4>Rita <span>@ritamotoka</span></h4>
+                    <p>O assassino Trinity me pegou aff</p>
+                    <div class="acoes">
+                        <button onclick="curtir(this)">👍 12</button>
+                        <button onclick="comentar(this)">💬 5</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
